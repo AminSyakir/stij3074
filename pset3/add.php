@@ -41,19 +41,19 @@ if (isset($_POST["submit"])) {
         <ul>
             <li>
                 <label for="name">Name : </label>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name" required>
             </li>
             <li>
                 <label for="price">Price : </label>
-                <input type="text" name="price" id="price">
+                <input type="text" name="price" id="price" required>
             </li>
             <li>
                 <label for="quantity">Quantity : </label>
-                <input type="text" name="quantity" id="quantity">
+                <input type="text" name="quantity" id="quantity" required>
             </li>
             <li>
                 <label for="calorie">Calorie : </label>
-                <input type="text" name="calorie" id="calorie">
+                <input type="text" name="calorie" id="calorie" required>
             </li>
             <li>
                 <button type="submit" name="submit">Submit!</button>

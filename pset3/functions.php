@@ -21,13 +21,13 @@ function add($data)
     $name = htmlspecialchars($data["name"]);
     $price = htmlspecialchars($data["price"]);
     $quantity = htmlspecialchars($data["quantity"]);
-    $colarie = htmlspecialchars($data["calorie"]);
+    $calorie = htmlspecialchars($data["calorie"]);
 
 
     // query insert ada
     $query = "INSERT INTO pset3
               VALUES
-              ('', '$name', '$price', '$quantity', '$colarie')           
+              ('', '$name', '$price', '$quantity', '$calorie')           
             ";
 
     mysqli_query($conn, $query);
