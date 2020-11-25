@@ -23,11 +23,6 @@ function add($data)
     $quantity = htmlspecialchars($data["quantity"]);
     $colarie = htmlspecialchars($data["calorie"]);
 
-    // // upload gambar
-    // $gambar = upload();
-    // if (!$gambar) {
-    //     return false;
-    // }
 
     // query insert ada
     $query = "INSERT INTO pset3
